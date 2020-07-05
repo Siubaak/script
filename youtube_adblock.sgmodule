@@ -1,0 +1,9 @@
+#!name=YouTubeAdBlock
+#!desc=Block YouTube Ads
+#!system=ios
+
+[Rule]
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT-TINYGIF
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com
