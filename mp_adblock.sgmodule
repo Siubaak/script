@@ -1,0 +1,9 @@
+#!name=MpAdBlock
+#!desc=Block Mp Ads
+#!system=ios
+
+[Rule]
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,REJECT-TINYGIF
+
+[MITM]
+hostname = %APPEND% mp.weixin.qq.com
