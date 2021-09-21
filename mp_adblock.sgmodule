@@ -4,7 +4,6 @@
 
 [Rule]
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata,REJECT-TINYGIF
 
 [MITM]
 hostname = %APPEND% mp.weixin.qq.com
