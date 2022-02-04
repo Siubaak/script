@@ -1,0 +1,9 @@
+#!name=BlAdBlock
+#!desc=Block BiliBili Ads
+#!system=ios
+
+[Rule]
+URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list, REJECT
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
