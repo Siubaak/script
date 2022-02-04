@@ -3,7 +3,8 @@
 #!system=ios
 
 [Rule]
+URL-REGEX, ^https?:\/\/[^.]+\.googlevideo\.com\/.+&oad=, REJECT
 URL-REGEX, ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking), REJECT
 
 [MITM]
-hostname = %APPEND% www.youtube.com, s.youtube.com
+hostname = %APPEND% *.googlevideo.com, www.youtube.com, s.youtube.com
