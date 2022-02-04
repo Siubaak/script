@@ -3,7 +3,8 @@
 #!system=ios
 
 [Rule]
-URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list, REJECT
+URL-REGEX, ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list, REJECT
+URL-REGEX, ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/list, REJECT
 
 [MITM]
 hostname = %APPEND% app.bilibili.com
