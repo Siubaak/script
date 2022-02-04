@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-// URL-REGEX, ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier), REJECT
+#URL-REGEX, ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier), REJECT
 URL-REGEX, ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads, REJECT
 URL-REGEX, ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking), REJECT
 URL-REGEX, ^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat=, REJECT
