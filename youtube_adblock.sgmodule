@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-URL-REGEX,^https://[^.]+\.googlevideo\.com/.+&oad=, REJECT
+URL-REGEX, ^https:\/\/[^.]+\.googlevideo\.com\/.+&oad=, REJECT
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com
