@@ -1,0 +1,6 @@
+#!name=GoogleMITM
+#!desc=Google MITM
+#!system=ios
+
+[MITM]
+hostname = %APPEND% google.cn
