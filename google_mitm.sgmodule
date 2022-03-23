@@ -1,6 +1,6 @@
 #!name=GoogleMITM
-#!desc=Google MITM
+#!desc=Google CN MITM
 #!system=ios
 
 [MITM]
-hostname = %APPEND% google.cn
+hostname = %APPEND% www.google.cn
