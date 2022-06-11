@@ -3,5 +3,5 @@
 #!system=ios
 
 [Rule]
-DOMAIN-KEYWORD, etherscan, BosLife
+DOMAIN-SUFFIX, etherscan.io, BosLife
 DOMAIN-SUFFIX, mirror.xyz, BosLife
