@@ -5,3 +5,4 @@
 [Rule]
 DOMAIN-SUFFIX, etherscan.io, BosLife
 DOMAIN-SUFFIX, mirror.xyz, BosLife
+DOMAIN-SUFFIX, infura.io, BosLife
