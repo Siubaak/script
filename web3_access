@@ -1,0 +1,6 @@
+#!name=Web3Access
+#!desc=Web3 Entry Access
+
+[Rule]
+DOMAIN-KEYWORD,etherscan,BosLife
+DOMAIN-SUFFIX,mirror.xyz,BosLife
