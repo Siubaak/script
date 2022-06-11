@@ -1,6 +1,7 @@
 #!name=Web3Access
 #!desc=Web3 Entry Access
+#!system=ios
 
 [Rule]
-DOMAIN-KEYWORD,etherscan,BosLife
-DOMAIN-SUFFIX,mirror.xyz,BosLife
+DOMAIN-KEYWORD, etherscan, BosLife
+DOMAIN-SUFFIX, mirror.xyz, BosLife
