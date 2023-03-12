@@ -1,0 +1,7 @@
+#!name=KartRiderDrift
+#!desc=KartRider Drift
+#!system=ios
+
+[Rule]
+DOMAIN-SUFFIX, nexon.com, BosLife
+DOMAIN-SUFFIX, nexon.io, BosLife
