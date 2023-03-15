@@ -3,16 +3,14 @@
 #!system=ios
 
 [Rule]
-DOMAIN-SUFFIX, etherscan.io, BosLife
-DOMAIN-SUFFIX, infura.io, BosLife
-DOMAIN-SUFFIX, ipfs.io, BosLife
-DOMAIN-SUFFIX, mirror.xyz, BosLife
-DOMAIN-SUFFIX, opensea.io, BosLife
-DOMAIN-SUFFIX, binance.im, BosLife
-DOMAIN-SUFFIX, binance.com, BosLife
-DOMAIN-SUFFIX, binance.info, BosLife
-DOMAIN-SUFFIX, binance.cloud, BosLife
-DOMAIN-SUFFIX, binancecnt.com, BosLife
+DOMAIN-KEYWORD, etherscan, BosLife
+DOMAIN-KEYWORD, infura, BosLife
+DOMAIN-KEYWORD, ipfs, BosLife
+DOMAIN-KEYWORD, opensea, BosLife
+DOMAIN-KEYWORD, binance, BosLife
+DOMAIN-KEYWORD, coingecko, BosLife
+DOMAIN-KEYWORD, metamask, BosLife
 DOMAIN-SUFFIX, bnbstatic.com, BosLife
 DOMAIN-SUFFIX, bntrace.com, BosLife
 DOMAIN-SUFFIX, saasexch.com, BosLife
+DOMAIN-SUFFIX, mirror.xyz, BosLife
