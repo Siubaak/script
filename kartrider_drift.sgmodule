@@ -5,4 +5,5 @@
 [Rule]
 DOMAIN-SUFFIX, nexon.com, BosLife
 DOMAIN-SUFFIX, nexon.io, BosLife
+DOMAIN-SUFFIX, nexoncdn.co.kr, BosLife
 DOMAIN-SUFFIX, multiplay.com, BosLife
