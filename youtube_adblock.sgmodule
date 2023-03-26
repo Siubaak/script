@@ -2,14 +2,11 @@
 #!desc=Block YouTube Ads
 #!system=ios
 
-[Rule]
-URL-REGEX, ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier), REJECT
-URL-REGEX, ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking), REJECT
-URL-REGEX, ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads, REJECT
-URL-REGEX, ^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat=, REJECT
+[Script]
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
 
-[URL Rewrite]
-(^https?:\/\/(?!redirector)[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+)(ctier=L)(&.+) $1$4 header
+[Map Local]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/blank.txt" header="Content-Type: application/vnd.yt-ump"
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, www.youtube.com, s.youtube.com
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com
