@@ -4,6 +4,7 @@
 
 [Rule]
 DOMAIN-KEYWORD, etherscan, BosLife
+DOMAIN-KEYWORD, polygonscan, BosLife
 DOMAIN-KEYWORD, infura, BosLife
 DOMAIN-KEYWORD, ipfs, BosLife
 DOMAIN-KEYWORD, opensea, BosLife
