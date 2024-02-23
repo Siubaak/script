@@ -1,0 +1,6 @@
+#!name=Abroad
+#!desc=Abroad Website
+#!system=ios
+
+[Rule]
+DOMAIN-KEYWORD, 1point3acres, BosLife
