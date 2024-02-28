@@ -9,6 +9,7 @@ DOMAIN-KEYWORD, infura, BosLife
 DOMAIN-KEYWORD, ipfs, BosLife
 DOMAIN-KEYWORD, opensea, BosLife
 DOMAIN-KEYWORD, binance, BosLife
+DOMAIN-KEYWORD, braze, BosLife
 DOMAIN-KEYWORD, saasexch, BosLife
 DOMAIN-KEYWORD, coingecko, BosLife
 DOMAIN-KEYWORD, cryptocompare, BosLife
@@ -20,13 +21,10 @@ DOMAIN-SUFFIX, codefi.network, BosLife
 DOMAIN-SUFFIX, chainlist.org, BosLife
 DOMAIN-SUFFIX, bnbstatic.com, BosLife
 DOMAIN-SUFFIX, bntrace.com, BosLife
-DOMAIN-SUFFIX, braze.com, BosLife
 DOMAIN-SUFFIX, lokalise.co, BosLife
-DOMAIN-SUFFIX, meituan.com, BosLife
 DOMAIN-SUFFIX, ntp.org, BosLife
 DOMAIN-SUFFIX, tenor.co, BosLife
 DOMAIN-SUFFIX, sentry.io, BosLife
-DOMAIN-SUFFIX, braze.eu, BosLife
 DOMAIN-SUFFIX, pactsafe.io, BosLife
 DOMAIN-SUFFIX, yingwangtech.net, BosLife
 DOMAIN-SUFFIX, hexagramglobal.com, BosLife
