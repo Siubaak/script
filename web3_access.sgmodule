@@ -1,5 +1,5 @@
-#!name=Web3&AI
-#!desc=Web3 & AI Entry
+#!name=Web3
+#!desc=Web3 Entries
 #!system=ios
 
 [Rule]
@@ -16,8 +16,6 @@ DOMAIN-KEYWORD, cryptocompare, BosLife
 DOMAIN-KEYWORD, metamask, BosLife
 DOMAIN-KEYWORD, moonpay, BosLife
 DOMAIN-KEYWORD, okx, BosLife
-DOMAIN-KEYWORD, perplexity, BosLife
-DOMAIN-KEYWORD, revenuecat, BosLife
 DOMAIN-KEYWORD, walletconnect, BosLife
 DOMAIN-KEYWORD, worldcoin, BosLife
 DOMAIN-SUFFIX, codefi.network, BosLife
